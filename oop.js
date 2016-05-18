@@ -32,7 +32,13 @@ NotesApplication.prototype = {
 		var n = str.search(search_text);
 	},
 
-	deletes: function(Note_ID)
+	deletes: function(Note_ID){
+		delete this.noteslist[Note_ID];
+	}
+
+	edit: function(Note_ID, new_content){
+		
+	}
 
 
 
