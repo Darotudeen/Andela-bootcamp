@@ -1,6 +1,5 @@
 //this is my oop assignment
-function NotesApplication(){
-	var Notes = new NotesApplication(author, noteslist);
+function NotesApplication(author, noteslist){
 	this.author = author;
 	this.noteslist = [];
 }
