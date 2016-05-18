@@ -37,7 +37,7 @@ NotesApplication.prototype = {
 	}
 
 	edit: function(Note_ID, new_content){
-		
+		this.noteslist[Note_ID] = new_content;
 	}
 
 
