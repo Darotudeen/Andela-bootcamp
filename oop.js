@@ -25,7 +25,14 @@ NotesApplication.prototype = {
 
 	get: function(Note_ID){
 		return this.noteslist.join(',');
-	}
+	},
+
+	search:function(search_text){
+		var str = this.noteslist;
+		var n = str.search(search_text);
+	},
+
+	deletes: function(Note_ID)
 
 
 
