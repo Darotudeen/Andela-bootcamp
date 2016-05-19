@@ -6,11 +6,11 @@ describe ('NotesApplication', function(){
 		expect(Book.NotesContent).toIncrement(Book.noteslist);
 	});
 
-	it('not null', function(){
-		var NotesContent = function(){
-			service.NotesContent(null);
-		}
-		expect(NotesContent).not.toBe(null);
+	it('it should arrange each notes in noteslist', function(){
+		var Note_ID = "";
+		Book = new NotesApplication();
+		expect(Book.NotesContent).toIncrement(Book.noteslist);
+	});;
 	});
 	
 	it('not null', function(){
