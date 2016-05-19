@@ -7,11 +7,17 @@ describe ('NotesApplication', function(){
 	});
 
 	it('it should arrange each notes in noteslist', function(){
+		var Note_ID = this.notelist[i];
+		Book = new NotesApplication();
+		expect(Book.NotesContent()).toIncrement(Book.noteslist);
+	
+	});
+
+
+	it('it should return note from its index', function(){
 		var Note_ID = "";
 		Book = new NotesApplication();
-		expect(Book.NotesContent).toIncrement(Book.noteslist);
-	});;
-	});
+		expect(Book.NotesContent()).toIncrement(Book.noteslist);
 	
 	it('not null', function(){
 		var listNotes = function(){
